@@ -37,14 +37,10 @@
 		4B56CF072B8B3DBB00C7F6EB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEBB2B8B3DBB00C7F6EB /* manifest.json */; };
 		4B56CF082B8B3DBB00C7F6EB /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEBC2B8B3DBB00C7F6EB /* background.js */; };
 		4B56CF092B8B3DBB00C7F6EB /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEBC2B8B3DBB00C7F6EB /* background.js */; };
-		4B56CF0A2B8B3DBB00C7F6EB /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEBD2B8B3DBB00C7F6EB /* content.js */; };
-		4B56CF0B2B8B3DBB00C7F6EB /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEBD2B8B3DBB00C7F6EB /* content.js */; };
-		4B56CF0C2B8B3DBB00C7F6EB /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEBE2B8B3DBB00C7F6EB /* popup.html */; };
-		4B56CF0D2B8B3DBB00C7F6EB /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEBE2B8B3DBB00C7F6EB /* popup.html */; };
-		4B56CF0E2B8B3DBB00C7F6EB /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEBF2B8B3DBB00C7F6EB /* popup.css */; };
-		4B56CF0F2B8B3DBB00C7F6EB /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEBF2B8B3DBB00C7F6EB /* popup.css */; };
-		4B56CF102B8B3DBB00C7F6EB /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEC02B8B3DBB00C7F6EB /* popup.js */; };
-		4B56CF112B8B3DBB00C7F6EB /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CEC02B8B3DBB00C7F6EB /* popup.js */; };
+		4B56CF232B8B419600C7F6EB /* zhihu.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CF222B8B419600C7F6EB /* zhihu.js */; };
+		4B56CF242B8B419600C7F6EB /* zhihu.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CF222B8B419600C7F6EB /* zhihu.js */; };
+		4B56CF262B8B41B000C7F6EB /* douban.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CF252B8B41B000C7F6EB /* douban.js */; };
+		4B56CF272B8B41B000C7F6EB /* douban.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CF252B8B41B000C7F6EB /* douban.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,10 +97,6 @@
 		4B56CEBA2B8B3DBB00C7F6EB /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		4B56CEBB2B8B3DBB00C7F6EB /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		4B56CEBC2B8B3DBB00C7F6EB /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		4B56CEBD2B8B3DBB00C7F6EB /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		4B56CEBE2B8B3DBB00C7F6EB /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		4B56CEBF2B8B3DBB00C7F6EB /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		4B56CEC02B8B3DBB00C7F6EB /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		4B56CEC52B8B3DBB00C7F6EB /* SafariExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B56CEC82B8B3DBB00C7F6EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B56CECA2B8B3DBB00C7F6EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +112,8 @@
 		4B56CEED2B8B3DBB00C7F6EB /* SafariExtension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafariExtension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B56CEF22B8B3DBB00C7F6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B56CEF32B8B3DBB00C7F6EB /* SafariExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariExtension.entitlements; sourceTree = "<group>"; };
+		4B56CF222B8B419600C7F6EB /* zhihu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = zhihu.js; sourceTree = "<group>"; };
+		4B56CF252B8B41B000C7F6EB /* douban.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = douban.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,10 +198,8 @@
 				4B56CEBA2B8B3DBB00C7F6EB /* images */,
 				4B56CEBB2B8B3DBB00C7F6EB /* manifest.json */,
 				4B56CEBC2B8B3DBB00C7F6EB /* background.js */,
-				4B56CEBD2B8B3DBB00C7F6EB /* content.js */,
-				4B56CEBE2B8B3DBB00C7F6EB /* popup.html */,
-				4B56CEBF2B8B3DBB00C7F6EB /* popup.css */,
-				4B56CEC02B8B3DBB00C7F6EB /* popup.js */,
+				4B56CF222B8B419600C7F6EB /* zhihu.js */,
+				4B56CF252B8B41B000C7F6EB /* douban.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -415,13 +407,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B56CF082B8B3DBB00C7F6EB /* background.js in Resources */,
-				4B56CF0E2B8B3DBB00C7F6EB /* popup.css in Resources */,
-				4B56CF0C2B8B3DBB00C7F6EB /* popup.html in Resources */,
 				4B56CF042B8B3DBB00C7F6EB /* images in Resources */,
 				4B56CF062B8B3DBB00C7F6EB /* manifest.json in Resources */,
 				4B56CF022B8B3DBB00C7F6EB /* _locales in Resources */,
-				4B56CF0A2B8B3DBB00C7F6EB /* content.js in Resources */,
-				4B56CF102B8B3DBB00C7F6EB /* popup.js in Resources */,
+				4B56CF232B8B419600C7F6EB /* zhihu.js in Resources */,
+				4B56CF262B8B41B000C7F6EB /* douban.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,13 +420,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B56CF092B8B3DBB00C7F6EB /* background.js in Resources */,
-				4B56CF0F2B8B3DBB00C7F6EB /* popup.css in Resources */,
-				4B56CF0D2B8B3DBB00C7F6EB /* popup.html in Resources */,
 				4B56CF052B8B3DBB00C7F6EB /* images in Resources */,
 				4B56CF072B8B3DBB00C7F6EB /* manifest.json in Resources */,
 				4B56CF032B8B3DBB00C7F6EB /* _locales in Resources */,
-				4B56CF0B2B8B3DBB00C7F6EB /* content.js in Resources */,
-				4B56CF112B8B3DBB00C7F6EB /* popup.js in Resources */,
+				4B56CF242B8B419600C7F6EB /* zhihu.js in Resources */,
+				4B56CF272B8B41B000C7F6EB /* douban.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
