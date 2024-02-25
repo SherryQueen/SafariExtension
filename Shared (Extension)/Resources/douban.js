@@ -12,19 +12,19 @@
       document
         .querySelector('title')
         .innerText.replace(/(^\s*)|(\s*$)/g, '')
-        .replace(' (豆瓣)', ''),
+        .replace(' (豆瓣)', '')
     );
-    const subjectwrap = document.querySelector('h1');
+    const subjectWrap = document.querySelector('h1');
     const subject = document.querySelector('.year');
-    if (!subjectwrap || !subject) {
+    if (!subjectWrap || !subject) {
       return;
     }
-    const sectl = document.createElement('span');
-    subjectwrap.insertBefore(sectl, subject.nextSibling);
-    sectl.insertAdjacentHTML(
+    const span = document.createElement('span');
+    subjectWrap.insertBefore(span, subject.nextSibling);
+    span.insertAdjacentHTML(
       'beforebegin',
-      `<style>.cupfox{vertical-align: middle;}.cupfox:hover{background: #fff!important;}</style>
-          <a href="https://yunpan1.cc/?q=${title}" class="aliso" target="_blank"><img style="width:24px;height:24px" src="https://img.alicdn.com/imgextra/i2/O1CN011vHpiQ251TseXpbH7_!!6000000007466-2-tps-120-120.png" ></a>`,
+      `<style>.aliso{vertical-align: middle;}.aliso:hover{background: #fff!important;}</style>
+          <a href="https://yunpan1.cc/?q=${title}" class="aliso" target="_blank"><img style="width:24px;height:24px" src="https://img.alicdn.com/imgextra/i2/O1CN011vHpiQ251TseXpbH7_!!6000000007466-2-tps-120-120.png" ></a>`
     );
   }
 })();
