@@ -41,6 +41,8 @@
 		4B56CF242B8B419600C7F6EB /* zhihu.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CF222B8B419600C7F6EB /* zhihu.js */; };
 		4B56CF262B8B41B000C7F6EB /* douban.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CF252B8B41B000C7F6EB /* douban.js */; };
 		4B56CF272B8B41B000C7F6EB /* douban.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B56CF252B8B41B000C7F6EB /* douban.js */; };
+		4B8011F82BA6E8F0000111FD /* ad.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B8011F72BA6E8F0000111FD /* ad.js */; };
+		4B8011F92BA6E8F0000111FD /* ad.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B8011F72BA6E8F0000111FD /* ad.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,7 @@
 		4B56CEF32B8B3DBB00C7F6EB /* SafariExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariExtension.entitlements; sourceTree = "<group>"; };
 		4B56CF222B8B419600C7F6EB /* zhihu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = zhihu.js; sourceTree = "<group>"; };
 		4B56CF252B8B41B000C7F6EB /* douban.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = douban.js; sourceTree = "<group>"; };
+		4B8011F72BA6E8F0000111FD /* ad.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ad.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +203,7 @@
 				4B56CEBC2B8B3DBB00C7F6EB /* background.js */,
 				4B56CF222B8B419600C7F6EB /* zhihu.js */,
 				4B56CF252B8B41B000C7F6EB /* douban.js */,
+				4B8011F72BA6E8F0000111FD /* ad.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -410,6 +414,7 @@
 				4B56CF042B8B3DBB00C7F6EB /* images in Resources */,
 				4B56CF062B8B3DBB00C7F6EB /* manifest.json in Resources */,
 				4B56CF022B8B3DBB00C7F6EB /* _locales in Resources */,
+				4B8011F82BA6E8F0000111FD /* ad.js in Resources */,
 				4B56CF232B8B419600C7F6EB /* zhihu.js in Resources */,
 				4B56CF262B8B41B000C7F6EB /* douban.js in Resources */,
 			);
@@ -423,6 +428,7 @@
 				4B56CF052B8B3DBB00C7F6EB /* images in Resources */,
 				4B56CF072B8B3DBB00C7F6EB /* manifest.json in Resources */,
 				4B56CF032B8B3DBB00C7F6EB /* _locales in Resources */,
+				4B8011F92BA6E8F0000111FD /* ad.js in Resources */,
 				4B56CF242B8B419600C7F6EB /* zhihu.js in Resources */,
 				4B56CF272B8B41B000C7F6EB /* douban.js in Resources */,
 			);
